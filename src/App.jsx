@@ -11,14 +11,28 @@ const App = () => {
   const [open, setOpen] = useState(true);
   const [item, setItem] = useState(Data);
   const menuItems = [...new Set(Data.map((val) => val.category))];
-
+  
+  // for(let i in Data){
+  //   console.log(Data[i].title.toLowerCase());
+  // }
   //Fitering
 
   const filerItems = (cat) => {
     const newItems = Data.filter((newval) => newval.category === cat);
-    console.log(newItems);
     setItem(newItems);
   };
+
+  const[form,setForm]=useState("sonu")
+  const handleForm=(e)=>{
+    setForm(e.target.value)
+  }
+
+  const SearchItems = (cat) => {
+    const newItems = Data.filter((newval) => newval.category.toLowerCase() === cat.toLowerCase());
+    setItem(newItems);
+  };
+
+  
   return (
     <>
       <div className="flex">
@@ -44,7 +58,7 @@ const App = () => {
                 !open && "scale-0"
               }`}
             >
-              E-commerce
+              SONU
             </h1>
           </div>
           <div
@@ -56,9 +70,12 @@ const App = () => {
               className={`text-white text-lg ${
                 open && "mr-2"
               }  block float-left mr-2 cursor-pointer `}
+              onClick={() => SearchItems(form)}
             />
             <input
               type={"search"}
+              value={form}
+              onChange={handleForm}
               className={`text-base bg-transparent w-full text-white focus:outline-none ${
                 !open && "hidden"
               }`}
@@ -75,10 +92,10 @@ const App = () => {
             />
           </div>
         </div>
-        <div className="w-full h-screen flex flex-col ">
+        <div className="w-full h-screen flex flex-col bg-gray-900">
           <Navbar />
           <Card item={item}/>
-          <div className="min-h-20 bg-gray-900 flex justify-center items-center">
+          <div className="min-h-20 bg-gray-900 flex justify-center items-center  mt-auto">
               <p className="text-white text-xl "> @Sonu Kumar</p>
           </div>
         </div>

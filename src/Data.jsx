@@ -13,7 +13,7 @@ const Data = [
   {
     id: 2,
 
-    img: "https://dummyimage.com/600x400",
+    img: "https://m.media-amazon.com/images/I/61eZxHEQfvL._SL1500_.jpg",
     title: "Women's High Waist Jeans",
     category: "Women's Clothing",
     price: 39.99,
@@ -24,7 +24,7 @@ const Data = [
   {
     id: 3,
 
-    img: "https://dummyimage.com/600x400",
+    img: "https://m.media-amazon.com/images/I/31m170FrW1L.jpg",
     title: "Unisex Hooded Sweatshirt",
     category: "Unisex Clothing",
     price: 29.99,
@@ -35,7 +35,7 @@ const Data = [
   {
     id: 4,
 
-    img: "https://dummyimage.com/600x400",
+    img: "https://m.media-amazon.com/images/I/31nvkgIi65L.jpg",
     title: "Men's Formal Suit",
     category: "Men's Clothing",
     price: 149.99,
@@ -46,7 +46,7 @@ const Data = [
   {
     id: 5,
 
-    img: "https://dummyimage.com/600x400",
+    img: "https://m.media-amazon.com/images/I/51C6d+zPh+L.jpg",
     title: "Women's Floral Dress",
     category: "Women's Clothing",
     price: 59.99,
@@ -57,7 +57,7 @@ const Data = [
   {
     id: 6,
 
-    img: "https://dummyimage.com/600x400",
+    img: "https://m.media-amazon.com/images/I/31ESWFjUO9L.jpg",
     title: "Men's Sports Shorts",
     category: "Men's Clothing",
     price: 24.99,
@@ -68,7 +68,7 @@ const Data = [
   {
     id: 7,
 
-    img: "https://dummyimage.com/600x400",
+    img: "https://m.media-amazon.com/images/I/61Arq2l+b0L._SL1100_.jpg",
     title: "Women's Running Shoes",
     category: "Women's Shoes",
     price: 79.99,
@@ -79,7 +79,7 @@ const Data = [
   {
     id: 8,
 
-    img: "https://dummyimage.com/600x400",
+    img: "https://m.media-amazon.com/images/I/41rozMsxRzL.jpg",
     title: "Men's Leather Belt",
     category: "Men's Accessories",
     price: 34.99,
@@ -90,7 +90,7 @@ const Data = [
   {
     id: 9,
 
-    img: "https://dummyimage.com/600x400",
+    img: "https://m.media-amazon.com/images/I/41oga+ltfGL.jpg",
     title: "Women's Winter Coat",
     category: "Women's Clothing",
     price: 99.99,
@@ -100,7 +100,7 @@ const Data = [
   },
   {
     id: 10,
-    img: "https://dummyimage.com/600x400",
+    img: "https://m.media-amazon.com/images/I/41+HiCd9zsL.jpg",
     title: "Men's Crew Neck Sweater",
     category: "Men's Clothing",
     price: 49.99,
@@ -110,7 +110,7 @@ const Data = [
   },
   {
     id: 11,
-    img: "https://dummyimage.com/600x400",
+    img: "https://m.media-amazon.com/images/I/41Loc4YeqOL.jpg",
     title: "Women's Casual Blouse",
     category: "Women's Clothing",
     price: 29.99,
@@ -120,7 +120,7 @@ const Data = [
   },
   {
     id: 12,
-    img: "https://dummyimage.com/600x400",
+    img: "https://m.media-amazon.com/images/I/41AqKvjzRkL.jpg",
     title: "Men's Denim Jacket",
     category: "Men's Clothing",
     price: 69.99,
@@ -130,7 +130,7 @@ const Data = [
   },
   {
     id: 13,
-    img: "https://dummyimage.com/600x400",
+    img: "https://m.media-amazon.com/images/I/41jO-a2iENL.jpg",
     title: "Women's Leather Handbag",
     category: "Women's Accessories",
     price: 89.99,
@@ -140,7 +140,7 @@ const Data = [
   },
   {
     id: 14,
-    img: "https://dummyimage.com/600x400",
+    img: "https://m.media-amazon.com/images/I/61oG1XGCqgL._SL1500_.jpg",
     title: "Men's Polo Shirt",
     category: "Men's Clothing",
     price: 29.99,
@@ -150,7 +150,7 @@ const Data = [
   },
   {
     id: 15,
-    img: "https://dummyimage.com/600x400",
+    img: "https://m.media-amazon.com/images/I/41p+iVXMCVL.jpg",
     title: "Women's Summer Skirt",
     category: "Women's Clothing",
     price: 39.99,
@@ -160,7 +160,7 @@ const Data = [
   },
   {
     id: 16,
-    img: "https://dummyimage.com/600x400",
+    img: "https://m.media-amazon.com/images/I/31PDoufpleL._SY300_SX300_.jpg",
     title: "Men's Leather Wallet",
     category: "Men's Accessories",
     price: 49.99,
@@ -170,7 +170,7 @@ const Data = [
   },
   {
     id: 17,
-    img: "https://dummyimage.com/600x400",
+    img: "https://m.media-amazon.com/images/I/81-9oeveJZL._AC_UL480_FMwebp_QL65_.jpg",
     title: "Women's Ankle Boots",
     category: "Women's Shoes",
     price: 69.99,
@@ -180,7 +180,7 @@ const Data = [
   },
   {
     id: 18,
-    img: "https://dummyimage.com/600x400",
+    img: "https://m.media-amazon.com/images/I/51RCcq9dOjL._AC_UL480_FMwebp_QL65_.jpg",
     title: "Men's Cargo Pants",
     category: "Men's Clothing",
     price: 44.99,
@@ -190,7 +190,7 @@ const Data = [
   },
   {
     id: 19,
-    img: "https://dummyimage.com/600x400",
+    img: "https://m.media-amazon.com/images/I/51dcu4+88lL._AC_UL480_FMwebp_QL65_.jpg",
     title: "Women's Striped Sweater",
     category: "Women's Clothing",
     price: 34.99,
@@ -200,7 +200,7 @@ const Data = [
   },
   {
     id: 20,
-    img: "https://dummyimage.com/600x400",
+    img: "https://m.media-amazon.com/images/I/61TmFU5ecjL._AC_UL480_FMwebp_QL65_.jpg",
     title: "Men's Casual Loafers",
     category: "Men's Shoes",
     price: 59.99,
